@@ -4969,5 +4969,14 @@ func initAllSequences() {
 	AllSequences.AddSequence([]rune{0x1f636, 0x200d, 0x1f32b, 0xfe0f}, "RGI_Emoji_ZWJ_Sequence   ==> 😶‍🌫️")
 	AllSequences.AddSequence([]rune{0x1f642, 0x200d, 0x2194, 0xfe0f}, "RGI_Emoji_ZWJ_Sequence   ==> 🙂‍↔️")
 	AllSequences.AddSequence([]rune{0x1f642, 0x200d, 0x2195, 0xfe0f}, "RGI_Emoji_ZWJ_Sequence   ==> 🙂‍↕️")
+	AllSequences.AddSequence([]rune{0x272a}, "RGI_Emoji_Sequence ==> ✪")
+	AllSequences.AddSequence([]rune{0x25a1}, "RGI_Emoji_Sequence ==> □")
+	AllSequences.AddSequence([]rune{0x2605}, "RGI_Emoji_Sequence ==> ★")
+	AllSequences.AddSequence([]rune{0x32a3}, "RGI_Emoji_Sequence ==> ㊣")
+	AllSequences.AddSequence([]rune{0x260e}, "RGI_Emoji_Sequence ==> ☎")
+	AllSequences.AddSequence([]rune{0x265b}, "RGI_Emoji_Sequence ==> ♛")
+	AllSequences.AddSequence([]rune{0x28, 0x2a, 0x2579, 0x25bd, 0x2579, 0x2a, 0x29}, "RGI_Emoji_Sequence ==> (╹▽╹)")
+	AllSequences.AddSequence([]rune{0x7e, 0x5c, 0x28, 0x2267, 0x2266, 0x29, 0x2f, 0x7e}, `RGI_Emoji_Sequence ==> ~\(≧≦)/~`)
+	AllSequences.AddSequence([]rune{0x261e}, "RGI_Emoji_Sequence ==> ☞")
 }
 

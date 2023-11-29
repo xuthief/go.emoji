@@ -9,7 +9,7 @@ import (
 func ExampleReplaceAllEmojiFunc() {
 	printf := fmt.Printf
 
-	s := "👩‍👩‍👦🇨🇳"
+	s := `👩‍👩‍👦🇨🇳✪□★㊣☎♛(*╹▽╹*)~\(≧≦)/~`
 	i := 0
 
 	final := emoji.ReplaceAllEmojiFunc(s, func(emoji string) string {
@@ -22,7 +22,15 @@ func ExampleReplaceAllEmojiFunc() {
 	// Output:
 	// 01 - 👩‍👩‍👦 - len 18
 	// 02 - 🇨🇳 - len 8
-	// final: <1-2->
+	// 03 - ✪ - len 3
+	// 04 - □ - len 3
+	// 05 - ★ - len 3
+	// 06 - ㊣ - len 3
+	// 07 - ☎ - len 3
+	// 08 - ♛ - len 3
+	// 09 - (*╹▽╹*) - len 13
+	// 10 - ~\(≧≦)/~ - len 12
+	// final: <1-2-3-4-5-6-7-8-9-10->
 }
 
 func ExampleIterateChars() {
